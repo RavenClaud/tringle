@@ -1,0 +1,23 @@
+#include <stdio.h>
+
+int main(){
+    
+int angleA, angleB, angleC;
+
+printf("enter 3 angle \n");
+scanf("%d%d%d",&angleA, &angleB, &angleC);
+
+if (angleA + angleB < angleC )
+  
+   printf("triangle not valid");
+  
+   else if (angleA + angleC < angleB)
+   printf("triangle is valid");
+   
+   else if (angleB + angleB < angleC)
+   printf("triangle is valid");
+   
+   else printf("triangle is invalid");
+   
+   return (0);
+}
